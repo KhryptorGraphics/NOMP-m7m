@@ -73,3 +73,7 @@ config.json
 website/static/prices/xmgusd
 website/static/prices/xmgbtc
 website/static/prices/timestamp
+
+# log files
+logs/*.log
+logs/*.err
