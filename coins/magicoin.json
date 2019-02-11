@@ -1,0 +1,6 @@
+{
+    "name": "Magicoin",
+    "symbol": "XMG",
+    "algorithm": "m7m",
+	"peerMagic": "f0b9b3d6"
+}

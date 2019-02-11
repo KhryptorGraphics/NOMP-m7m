@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# pool config files
+pool_configs/*.json
+
+# main config
+config.json

@@ -1,0 +1,48 @@
+{
+    "name": "NOMP-m7m",
+    "version": "0.1.6",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/BloodyNora/NOMP-m7m",
+    "bugs": {
+        "url": "https://github.com/BloodyNora/NOMP-m7m/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "dependencies": {
+        "stratum-pool": "git://github.com/BloodyNora/nomp-stratum-bp.git",
+        "multi-hashing": "git://github.com/BloodyNora/nomp-multi-hashing-bp.git",
+        "dateformat": "1.0.12",
+        "node-json-minify": "*",
+        "redis": "0.12.1",
+        "mysql": "*",
+        "async": "1.5.2",
+        "express": "*",
+        "body-parser": "*",
+        "compression": "*",
+        "dot": "*",
+        "colors": "*",
+        "node-watch": "0.3.0",
+        "request": "<2.8.0",
+        "nonce": "*",
+        "bignum": "0.12.5",
+        "extend": "*"
+    },
+    "engines": {
+        "node": "<=0.10.99"
+    }
+}
