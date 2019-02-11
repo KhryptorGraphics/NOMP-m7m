@@ -12,7 +12,7 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/BloodyNora/NOMP-m7m",
+    "homepage": "https://github.com/BloodyNora/NOMP-m7m/blob/master/README.md",
     "bugs": {
         "url": "https://github.com/BloodyNora/NOMP-m7m/issues"
     },
@@ -37,7 +37,7 @@
         "dot": "*",
         "colors": "*",
         "node-watch": "0.3.0",
-        "request": "2.8.0",
+        "request": "2.68.0",
         "nonce": "*",
         "bignum": "0.12.5",
         "extend": "*"
