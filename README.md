@@ -1,6 +1,6 @@
 # NOMP-m7m ![NOMP Logo](http://zone117x.github.io/node-open-mining-portal/logo.svg "NOMP Logo")
 
-This is an adapted version of an anicent version of the original [NOMP](https://github.com/zone117x/node-open-mining-portal). All credits to these guys.
+This is an adapted version of an anicent version of the original [NOMP](https://github.com/zone117x/node-open-mining-portal). All credits to these guys. The software from this repository is in use on [xmg.pool-mining.xyz](https://xmg.pool-mining.xyz).
 
 ## Setup
 
