@@ -37,3 +37,5 @@ To get an overview and then check the console output ("logs"), execute this:
 forever list
 forever logs
 ```
+
+Besides all that you **really** want to proxy this away behind an `nginx` that is configured to accept `GET` and `HEAD` requests only.
