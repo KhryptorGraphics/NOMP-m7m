@@ -38,4 +38,4 @@ forever list
 forever logs
 ```
 
-Besides all that you **really** want to proxy this away behind an `nginx` that is configured to accept `GET` and `HEAD` requests only.
+Besides all that you **really** want to proxy this away behind an `nginx` that is configured to accept `GET` and `HEAD` requests only. See the `auxiliary_configs/nginx.example` file to get started.
