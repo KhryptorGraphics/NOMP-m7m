@@ -1,4 +1,4 @@
-# NOMP-m7m ![NOMP Logo](http://zone117x.github.io/node-open-mining-portal/logo.svg "NOMP Logo")
+# NOMP-m7m
 
 This is an adapted version of an anicent version of the original [NOMP](https://github.com/zone117x/node-open-mining-portal). All credits to these guys. The software from this repository is in use on [xmg.pool-mining.xyz](https://xmg.pool-mining.xyz).
 
@@ -38,4 +38,4 @@ forever list
 forever logs
 ```
 
-Besides all that you **really** want to proxy this away behind an `nginx` that is configured to accept `GET` and `HEAD` requests only.
+Besides all that you **really** want to proxy this away behind an `nginx` that is configured to accept `GET` and `HEAD` requests only. See the `auxiliary_configs/nginx.example` file to get started.
