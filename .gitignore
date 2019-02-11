@@ -60,6 +60,9 @@ typings/
 # next.js build output
 .next
 
+# blocknotify binary
+scripts/blocknotify
+
 # pool config files
 pool_configs/*.json
 

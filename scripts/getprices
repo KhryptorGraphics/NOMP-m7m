@@ -1,0 +1,7 @@
+#!/bin/bash
+
+OUTDIR="${HOME}/NOMP-m7m/website/static/prices"
+
+echo $(date) > ${OUTDIR}/timestamp
+/usr/bin/curl --silent https://api.coingecko.com/api/v3/coins/magi | /usr/bin/jq -c .market_data.current_price.usd | /usr/bin/awk {' printf "%.8f",$1 '} > ${OUTDIR}/xmgusd
+/usr/bin/curl --silent https://api.coingecko.com/api/v3/coins/magi | /usr/bin/jq -c .market_data.current_price.btc | /usr/bin/awk {' printf "%.8f",$1 '} > ${OUTDIR}/xmgbtc

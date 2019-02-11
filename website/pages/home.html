@@ -77,6 +77,23 @@
 
 </style>
 
+<script>
+$(document).ready(function(){
+    $.ajax({url: "/static/prices/xmgusd", success: function(result){
+        $("#priceUSD").html(result);
+    }});
+
+    $.ajax({url: "/static/prices/xmgbtc", success: function(result){
+        $("#priceBTC").html(result);
+    }});
+
+    $.ajax({url: "/static/prices/timestamp", success: function(result){
+        $("#priceTS").html(result);
+    }});
+
+});
+</script>
+
 
 <div class="pure-g-r" id="boxWelcome">
     <div class="pure-u-1-3">
@@ -133,8 +150,9 @@
         <div class="boxStats" id="boxStatsRight">
             <div class="boxLowerHeader">Exchange Rates</div>
             <div class="boxStatsList">
-                <script src="https://widgets.coingecko.com/coingecko-coin-price-static-headline-widget.js"></script>
-<coingecko-coin-price-static-headline-widget  coin-ids="magi" currency="usd" locale="en" background-color="#f0f0f0"></coingecko-coin-price-static-headline-widget>
+					<div><i class="fas fa-clock"></i><span id="priceTS">&nbsp;</span></div>
+					<div><i class="fab fa-bitcoin"></i>&nbsp;<span id="priceBTC">&nbsp;</span> <i>(from CoinGecko)</i></div>
+					<div><i class="fas fa-dollar-sign"></i>&nbsp;<span id="priceUSD">&nbsp;</span> <i>(from CoinGecko)</i></div>
             </div>
         </div>
     </div>
