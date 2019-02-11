@@ -16,6 +16,13 @@ Proceed with normal pool setup which is just like any other `NOMP`. See the `con
 
 After all is set up, edit `website/pages/home.html` to suit your needs. The `Getting Started` page has been removed in favour of an on-point start page.
 
+You will need to put `scripts/getprices` into your crontab if you want to use it: 
+
+```
+MAILTO=""
+* * * * * ${HOME}/NOMP-m7m/scripts/getprices 1>/dev/null 2>&1
+```
+
 ## Management
 
 Install `forever` like so: 
