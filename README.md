@@ -13,3 +13,5 @@ nvm use 0.10
 ```
 
 Proceed with normal pool setup which is just like any other `NOMP`. See the `config.json.example` and `pool_config/magicoin.json.example` files to get started.
+
+After all is set up, edit `website/pages/home.html` to suit your needs. The `Getting Started` page has been removed in favour of an on-point start page.
