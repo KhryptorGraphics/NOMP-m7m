@@ -1,4 +1,4 @@
-# NOMP-m7m ![CoinMagi Logo](https://xmg.pool-mining.xyz/static/xmg.png "CoinMagi Logo")
+# NOMP-m7m
 
 This is an adapted version of an anicent version of the original [NOMP](https://github.com/zone117x/node-open-mining-portal). All credits to these guys. The software from this repository is in use on [xmg.pool-mining.xyz](https://xmg.pool-mining.xyz).
 
