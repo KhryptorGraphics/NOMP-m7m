@@ -20,7 +20,7 @@
     "authors": "NOMP-m7m authors",
     "repository": {
         "type": "git",
-        "url": "https://github.com/s-nomp/s-nomp.git"
+        "url": "https://github.com/BloodyNora/NOMP-m7m.git"
     },
     "main": "lib/index.js",
     "dependencies": {
