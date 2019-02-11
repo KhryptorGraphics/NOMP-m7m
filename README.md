@@ -15,3 +15,25 @@ nvm use 0.10
 Proceed with normal pool setup which is just like any other `NOMP`. See the `config.json.example` and `pool_config/magicoin.json.example` files to get started.
 
 After all is set up, edit `website/pages/home.html` to suit your needs. The `Getting Started` page has been removed in favour of an on-point start page.
+
+## Management
+
+Install `forever` like so: 
+
+```
+npm -g install forever
+```
+
+Use this command to start the pool: 
+
+```
+cd ~/NOMP-m7m
+forever start -o pool.log -e pool.err init.js
+```
+
+To get an overview and then check the console output ("logs"), execute this: 
+
+```
+forever list
+forever logs
+```
