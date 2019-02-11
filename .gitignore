@@ -68,3 +68,6 @@ pool_configs/*.json
 
 # main config
 config.json
+
+# price data
+website/static/prices/*
