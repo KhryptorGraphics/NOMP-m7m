@@ -70,4 +70,6 @@ pool_configs/*.json
 config.json
 
 # price data
-website/static/prices/*
+website/static/prices/xmgusd
+website/static/prices/xmgbtc
+website/static/prices/timestamp
