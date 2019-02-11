@@ -1,6 +1,6 @@
 # NOMP-m7m
 
-This is an adapted version of an anicent version of the original [NOMP](https://github.com/zone117x/node-open-mining-portal). All credits to these guys. The software from this repository is in use on [xmg.pool-mining.xyz](https://xmg.pool-mining.xyz).
+This is an adapted version of an anicent version of the original [NOMP](https://github.com/zone117x/node-open-mining-portal). All credits to these guys. The `m7mhash` part is taken from [here](https://github.com/ganjitoka) - the respective credits go there. The software from this repository is in use on [xmg.pool-mining.xyz](https://xmg.pool-mining.xyz).
 
 ## Setup
 
@@ -12,7 +12,7 @@ nvm alias default 0.10
 nvm use 0.10
 ```
 
-Proceed with normal pool setup which is just like any other `NOMP`. See the `config.json.example` and `pool_config/magicoin.json.example` files to get started.
+Proceed with normal pool setup which is just like any other `NOMP`. See the `config.json.example` and `pool_config/magicoin.json.example` files to get started, then do an `npm install`.
 
 After all is set up, edit `website/pages/home.html` to suit your needs. The `Getting Started` page has been removed in favour of an on-point start page.
 
