@@ -30,7 +30,7 @@ Use this command to start the pool:
 
 ```
 cd ~/NOMP-m7m
-forever start -o pool.log -e pool.err init.js
+forever start --append -l logs/magipool.log -e logs/magipool.err -p ${HOME}/NOMP-m7m --uid magipool init.js
 ```
 
 To get an overview and then check the console output ("logs"), execute this: 
