@@ -17,11 +17,11 @@
         "url": "https://github.com/BloodyNora/NOMP-m7m/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
-    "contributors": [
-        "vekexasia",
-        "TheSeven"
-    ],
+    "authors": "NOMP-m7m authors",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/s-nomp/s-nomp.git"
+    },
     "main": "lib/index.js",
     "dependencies": {
         "stratum-pool": "git://github.com/BloodyNora/nomp-stratum-bp.git",
