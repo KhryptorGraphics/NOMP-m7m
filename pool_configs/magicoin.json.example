@@ -22,20 +22,30 @@
     },
 
     "ports": {
-		"3332": {
-			"diff": 1,
-			"varDiff": {
-				"minDiff": 0.05,
-				"maxDiff": 8,
-				"targetTime": 15,
-				"retargetTime": 30,
-				"variancePercent": 50
-			}
-		},
-        "3333": {
-            "diff": 8,
+        "3332": {
+            "diff": 0.5,
             "varDiff": {
-                "minDiff": 4,
+                "minDiff": 0.05,
+                "maxDiff": 8,
+                "targetTime": 15,
+                "retargetTime": 30,
+                "variancePercent": 50
+            }
+        },
+        "3333": {
+            "diff": 4,
+            "varDiff": {
+                "minDiff": 2,
+                "maxDiff": 32,
+                "targetTime": 15,
+                "retargetTime": 30,
+                "variancePercent": 50
+            }
+        },
+        "3334": {
+            "diff": 16,
+            "varDiff": {
+                "minDiff": 8,
                 "maxDiff": 256,
                 "targetTime": 15,
                 "retargetTime": 30,
