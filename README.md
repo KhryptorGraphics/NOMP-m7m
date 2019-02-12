@@ -2,7 +2,7 @@
 
 This is an adapted version of an anicent version of the original [NOMP](https://github.com/zone117x/node-open-mining-portal). All credits to these guys. The `m7mhash` part is taken from [here](https://github.com/ganjitoka) - the respective credits go there. The software from this repository is in use on [xmg.pool-mining.xyz](https://xmg.pool-mining.xyz).
 
-One noteworthy detail is that this `NOMP` clone is modified not to load any external resources.
+One noteworthy detail is that this `NOMP` clone is modified not to load any external resources on its webpanel.
 
 ## Setup
 
